@@ -34,6 +34,7 @@ public void iniciar()
 
 public void actionPerformed(ActionEvent e)
 {
+    //poto
     model.setNumeroUno(Integer.parseInt(view.txtNumero1.getText()));
     model.setNumeroDos(Integer.parseInt(view.txtNumero2.getText()));
     model.multiplicar();
